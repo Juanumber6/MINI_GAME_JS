@@ -1,0 +1,254 @@
+body {
+    overflow: hidden;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    background-image: url(img/POKEMONSAGA.jpg);
+    background-attachment: fixed;  
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+    max-zoom: 100%;
+}
+
+.buttonenter{
+    background-color: green;
+    padding: 6px;
+    margin-top: 5px;
+}
+.name_container{
+    background: linear-gradient(to bottom, gold, black);
+    border: outset 2px black;
+    box-shadow: 2px 2px 4px 4px black;
+    border-radius: 50px;
+    position: absolute;
+    justify-content: center;
+    left: 550px;
+    top: 250px;
+    padding: 40px;
+}
+.waystogo{
+    display: none;
+}
+
+#seta1{
+    cursor: pointer;
+    position: absolute;
+    left: 370px;
+    top: 400px;
+    width: 100px;
+}
+#seta2{
+    cursor: pointer;
+    position: absolute;
+    left: 900px;
+    top: 400px;
+    width: 100px
+}
+
+#seta3{
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    left: -80px;
+    top: 400px;
+    width: 100px;
+}
+#seta4{
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    left: 370px;
+    top: 400px;
+    width: 100px
+}
+
+.dialogo1 {
+    display: inline-block;
+    position: relative;
+    left: 520px;
+    top: 60px;
+  }
+
+.dialogo1 img{
+    width: 300px;
+    border: solid 3px rgb(255, 145, 0);
+    box-shadow: 2px 2px 2px 2px black;
+}
+.dialogo1 figcaption {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    font-size: 20px;
+    color: black;
+    text-shadow: 2px 2px 10px rgb(122, 0, 141);
+  }
+
+
+.dialogocastelo {
+    display: none;
+}
+
+.simbotao {
+    font-size: large;
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(5, 255, 5);
+    border: outset 3px black;
+    position: absolute;
+    left: 10px;
+    top: 350px;
+    cursor: pointer;
+}
+
+.naobotao {
+    font-size: large;
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(255, 5, 5);
+    border: outset 3px black;
+    position: absolute;
+    left: 210px;
+    top: 350px;
+    cursor: pointer;
+}
+
+#text3 {
+    position: absolute;
+    left: 10px;
+    text-shadow: 2px 2px 2px black;
+    color: red;
+    font-size: 150px;
+}
+
+.maiscaminhodialogo {
+    display: none;
+}
+
+.maiscaminho {
+    display: inline-block;
+    position: relative;
+    left: 520px;
+    top: 60px;
+  }
+
+.maiscaminho .maiscaminhodialogo{
+    width: 300px;
+    border: solid 3px rgb(255, 145, 0);
+    box-shadow: 2px 2px 2px 2px black;
+}
+.maiscaminho figcaption {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    font-size: 20px;
+    color: black;
+    text-shadow: 2px 2px 10px rgb(122, 0, 141);
+  }
+
+  
+video{
+    box-shadow: 5px 5px 5px 5px black;
+    position: absolute;
+    top: -70px;
+    left: 16px;
+    display: none;
+    border-radius: 30px;
+}
+
+#sairdorestaurante {
+    font-size: large;
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(9, 255, 0);
+    border: outset 3px black;
+    position: absolute;
+    left: 100px;
+    top: 350px;
+    cursor: pointer;
+    display: none;
+}
+
+#skipvideo {
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    right: -600px;
+    bottom: -500px;
+    transform: rotate(90deg);
+}
+
+.chegounacasadialogo {
+    width: 300px;
+    border: solid 3px rgb(255, 145, 0);
+    box-shadow: 2px 2px 2px 2px black;
+    display: none;
+}
+
+#entrounacasa {
+    display: none;
+    cursor: pointer;
+    width: 80px;
+    position: absolute;
+    left: 80px;
+    top: 350px;
+}
+
+#textwin {
+    color: green;
+    font-size: 150px;
+    text-align: center;
+}
+
+.livredialogo{
+    display: none;
+}
+
+#livretext{
+    display: none;
+}
+
+.morte2dialogo figcaption {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    font-size: 20px;
+    color: black;
+    text-shadow: 2px 2px 10px rgb(122, 0, 141);
+  }
+
+.morte2dialogo {
+    width: 300px;
+    border: solid 3px rgb(255, 145, 0);
+    box-shadow: 2px 2px 2px 2px black;
+    display: none;
+}
+
+#entrar {
+    font-size: large;
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(9, 255, 0);
+    border: outset 3px black;
+    position: absolute;
+    left: 100px;
+    top: 350px;
+    cursor: pointer;
+    display: none;
+
+}
+
+#mortecaldeirao {
+    position: absolute;
+    left: 10px;
+    text-shadow: 2px 2px 2px black;
+    color: red;
+    font-size: 150px;
+}

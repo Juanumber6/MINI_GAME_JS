@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="the_game">
+        <div class="name_container">
+            <input type="text" id="name" maxlength="10" placeholder="Name">
+            <button class="buttonenter" onclick="clicar()">Enter</button>
+        </div>
+        <div class="waystogo">
+            <div class="dialogo1">                
+                <img src="img/CAIXADETEXTO.png" alt="">
+                <figcaption id="text1"></figcaption>
+            </div>
+            <img onclick="caminho1()" id="seta1" src="img/SETAGIF.gif" alt="">   
+            <div class="maiscaminho">
+                <img class="maiscaminhodialogo" src="img/CAIXADETEXTO.png" alt="">
+                    <figcaption id="text4"></figcaption>
+                    <img id="seta3" onclick="caminho3()" src="img/SETAGIF.gif" alt="">
+                    <video width="310" controls>
+                        <source src="img/BANDACALYPSO.mp4" type="video/mp4">
+                    </video>
+                    <img onclick="pularvideo()" id="skipvideo" src="img/SETAGIF.gif" alt="">
+                    <img class="chegounacasadialogo" src="img/CAIXADETEXTO.png" alt="">
+                    <figcaption id="text5"></figcaption>
+                    <img onclick="entrounacasa()" id="entrounacasa" src="img/SETAGIF.gif" alt="">
+                    <div id="textwin"></div>
+                    <img id="seta4"  onclick="caminho4()" src="img/SETAGIF.gif" alt="">
+                    <img class="morte2dialogo" src="img/CAIXADETEXTO.png" alt="">
+                    <figcaption id="morte2"></figcaption>
+                    <button id="entrar" onclick="entrar()">ENTER</button>
+                    <div id="mortecaldeirao"></div>
+                
+            </div>
+            
+            
+            <img onclick="caminho2()" id="seta2" src="img/SETAGIF.gif" alt="">
+            <div class="dialogocastelo">
+                <div class="dialogo1">                
+                    <img class="restaurantedialogo" src="img/CAIXADETEXTO.png" alt="">
+                    <figcaption id="text2"></figcaption>
+                    <button onclick="livre1()" class="simbotao">YES</button>
+                    <img class="livredialogo" src="img/CAIXADETEXTO.png" alt="">
+                    <figcaption id="livretext"></figcaption>
+                    <button onclick="sairdorestaurante()" id="sairdorestaurante">LEAVE</button>
+                    <button onclick="morte1()" class="naobotao">NO</button>
+                    <div id="text3"></div>
+
+
+                </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
